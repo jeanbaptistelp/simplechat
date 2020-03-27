@@ -1,0 +1,76 @@
+body {
+
+    margin : 0;
+    padding : 0;
+}
+
+
+.container {
+
+    background-color: rgb(233, 233, 233);
+    width : 200px;
+    height : 450px;
+    margin : 0 auto;
+    padding : 0;
+
+}
+
+.display {
+
+    background-color: rgb(219, 219, 219);
+    width : 200px;
+    height : 420px;
+    overflow-y: scroll;
+}
+
+.send {
+
+    background-color: rgb(114, 114, 189);
+    width : 200px;
+    height: 30px;
+}
+
+.writing-field {
+
+    display: flex;
+    height : 32px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.field-input {
+
+    width : 170px;
+    height: 20px;
+    background-color: white;
+    color : rgb(83, 83, 83); 
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.btn {
+   
+    width : 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: hotpink;
+    color : white;
+    padding : 0;
+    margin : 0;
+    border : none;
+
+}
+
+
+.message {
+
+    background-color: rgb(85, 85, 156);
+    color : white;
+    width: 120px;
+    border-radius: 15px;
+    margin : 5px;
+
+}
